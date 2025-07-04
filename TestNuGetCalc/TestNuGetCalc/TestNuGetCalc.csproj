@@ -1,0 +1,32 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <Company>$(Authors)</Company>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <Description>说明：学习上传NeGet。</Description>
+    <Copyright>daokong.net</Copyright>
+    <PackageProjectUrl>www.daokong.net</PackageProjectUrl>
+    <PackageIcon>66d8f4047b42f27a8d861367359cc223.jpeg</PackageIcon>
+    <Authors>Daokong;道空</Authors>
+    <Title>TitleTestNuGetCalc</Title>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Include="C:\Users\denghui.yin\Pictures\66d8f4047b42f27a8d861367359cc223.jpeg">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+  </ItemGroup>
+
+</Project>
